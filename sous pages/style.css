@@ -57,6 +57,7 @@ area:active, area:focus, audio{
   border:solid 1px;
   z-index: 2;
   position:absolute;
+  
 }
 
 .center{
@@ -64,32 +65,23 @@ area:active, area:focus, audio{
   border:solid 1px;
   background-color: #816134 ;
   opacity:0.9;
-  max-width: 60%;
   margin-right: 20%;
   margin-left: 20%;
+  
+}
+
 /*responsive right*/
-}
-
 @media screen and (max-width: 1800px)  {
-  .right{ top: 0; right: 0; background-color: white; opacity: 0.7; position: fixed;
+  .right ,.right2{ top: 0; right: 0; background-color: white; opacity: 0.7; position: fixed;
      }
-  .right2{top: 0; right: 0; background-color: white; opacity: 0.7; position: fixed;
-  }
+  
+}
+@media screen and (max-width: 800px){
+  .center{margin-left: 0;margin-right: 0;}
 }
 
 
-}
-/*respnsive center*/
-}
-@media screen and (max-width: 800px) {
-  .center {
-    
-    margin:0;
-    top: 0;
-    right: 0;
-    max-width: 100%;
-  }
-}
+
 .text{
   word-wrap: break-word;
   hyphens: auto;
