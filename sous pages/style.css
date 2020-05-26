@@ -76,15 +76,15 @@ area:active, area:focus, audio{
      }
   
 }
-@media screen and (max-width: 800px){
+/*@media screen and (max-width: 800px){
   .center{margin-left: 0;margin-right: 0;}
   iframe{height: 300px;}
-}
-
-@media screen and (orientation:portrait) {
+}*/
+.code{margin-bottom: -10px;}
+/*@media screen and (orientation:portrait) {
   .code{display: none;}
   
-}
+}*/
 .portrait{
   border: red solid 5px;
   top: 10px;
