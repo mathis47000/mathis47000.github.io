@@ -63,7 +63,7 @@ area:active, area:focus, audio{
 .center{
   padding: 10px;
   border:solid 1px;
-  background-color: #816134 ;
+  background-color:#c1874d ;
   opacity:0.9;
   margin-right: 20%;
   margin-left: 20%;
@@ -78,6 +78,7 @@ area:active, area:focus, audio{
 }
 @media screen and (max-width: 800px){
   .center{margin-left: 0;margin-right: 0;}
+  iframe{height: 300px;}
 }
 
 
