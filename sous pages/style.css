@@ -3,16 +3,11 @@ body {
 	  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
-
 }
-
-.image{
-z-index: 1;
-position: relative;
-
+html, .code {
+  max-height: 1080px;
+  max-width: 1920px;
 }
-
 audio{
   z-index: 2;
   position: fixed;
