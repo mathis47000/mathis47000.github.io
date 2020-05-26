@@ -86,11 +86,11 @@ area:active, area:focus, audio{
   
 }
 .portrait{
-  top: 45%;
+  top: 38%;
   padding: 10px;
   border: red solid 3px;
-  margin-right: 40%;
-  margin-left: 40%;
+  margin-right: 35%;
+  margin-left: 35%;
   position: absolute;
 }
 @media screen and (orientation:landscape){
