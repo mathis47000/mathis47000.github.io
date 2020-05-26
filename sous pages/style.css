@@ -3,7 +3,7 @@ body {
 	  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover
-
+  
 
 }
 
@@ -81,8 +81,21 @@ area:active, area:focus, audio{
   iframe{height: 300px;}
 }
 
-
-
+@media screen and (orientation:portrait) {
+  .code{display: none;}
+  
+}
+.portrait{
+  top: 45%;
+  padding: 10px;
+  border: red solid 3px;
+  margin-right: 40%;
+  margin-left: 40%;
+  position: absolute;
+}
+@media screen and (orientation:landscape){
+.portrait{display: none;}
+}
 .text{
   word-wrap: break-word;
   hyphens: auto;
@@ -109,6 +122,7 @@ ul.principal{
 .sous{
     overflow: hidden;
     padding-left: 15px;
+
 }
 
 a{
