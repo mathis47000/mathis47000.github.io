@@ -17,14 +17,8 @@ audio{
   top: 1px;
   opacity: 0.8;
 }
-audio.left{
-  z-index: 2;
-  position: fixed;
-  height: 40px;
-  width: 300px;
-  left: 2px;
-  top: 1px;
-  opacity: 0.8;
+.partition{
+  border: none;
 }
 
 /*enlève le contour bleu quand on clique*/
@@ -77,8 +71,8 @@ area:active, area:focus, audio{
 }
 
 @media screen and (orientation:portrait) {
-  .code{display: none;}
-  
+  .code,#sound{display: none;}
+  body{background-color: white;}
 }
 .portrait{
   border: red solid 5px;
