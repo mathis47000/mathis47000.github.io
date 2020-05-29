@@ -79,12 +79,12 @@ area:active, area:focus, audio{
 @media screen and (max-width: 800px){
   .center{margin-left: 0;margin-right: 0;}
   iframe.youtube{height: 300px;}
-  .partition1{display: none;}
+  
 }
 
 @media screen and (max-width: 500px) {
   .code{display: none;}
-  
+  .partition1{display: none;}
   
 }
 .portrait{
