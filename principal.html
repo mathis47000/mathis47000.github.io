@@ -9,6 +9,12 @@
 	<script>
 function myFunction() {
   alert("Bravo! vous avez trouvé le secret");
+  var txt;
+  var mot = prompt("Mot de passe:", "");
+  if (mot == "oui") {
+    document.location.href="sous pages/secret.html";
+  }
+  
 }
 </script>
 </head>
@@ -24,7 +30,7 @@ function myFunction() {
 			<area shape="rect" coords="900,800,650,700" href="sous pages/Le vivant.html">
 			<area shape="rect" coords="1400,450,1150,340" href="sous pages/Auteur.html">
 			<area shape="rect" coords="1650,900,1420,800" href="sous pages/à propos.html">
-			<area shape="rect" coords="1400,872.5,1422.5,900" onclick="setTimeout(myFunction,5000) ">
+			<area shape="rect" coords="1400,872.5,1422.5,900" onclick="setTimeout(myFunction,2000) ">
 		</map>
  	
 	</div>
