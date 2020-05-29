@@ -18,7 +18,8 @@ audio{
   width: 300px;
   right: 2px;
   top: 1px;
-  opacity: 0.8;
+  opacity: 0.75;
+
 }
 .partition1{
   z-index: 2;
@@ -42,7 +43,7 @@ area:active, area:focus, audio{
   min-width: 20px;
   max-width: 20%;
   border:solid 1px;
-  z-index: 3;
+  z-index: 2;
   position:absolute;
 }
 .right2{
@@ -53,7 +54,7 @@ area:active, area:focus, audio{
   min-width: 20px;
   max-width: 20%;
   border:solid 1px;
-  z-index: 3;
+  z-index: 2;
   position:absolute;
   
 }
@@ -81,10 +82,10 @@ area:active, area:focus, audio{
   
 }
 
-@media screen and (orientation:portrait) {
+@media screen and (max-width: 900px) {
   .code{display: none;}
   .partition1{display: none;}
-  body{background-color: white;}
+  
 }
 .portrait{
   border: red solid 5px;
@@ -94,7 +95,7 @@ area:active, area:focus, audio{
   left: 10px;
   position: absolute;
 }
-@media screen and (orientation:landscape){
+@media screen and (min-width: 900px){
 .portrait{display: none;}
 }
 .text{
