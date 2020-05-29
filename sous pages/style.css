@@ -4,10 +4,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-html, .code {
+html, .code,body {
   max-height: 1080px;
   max-width: 1920px;
+  
+
 }
+
 audio{
   z-index: 2;
   position: fixed;
@@ -17,8 +20,14 @@ audio{
   top: 1px;
   opacity: 0.8;
 }
+.partition1{
+  z-index: 2;
+  position:fixed;
+  opacity: 0.6;
+}
 .partition{
-  border: none;
+ z-index: 1;
+  position:relative;
 }
 
 /*enlève le contour bleu quand on clique*/
@@ -33,7 +42,7 @@ area:active, area:focus, audio{
   min-width: 20px;
   max-width: 20%;
   border:solid 1px;
-  z-index: 2;
+  z-index: 3;
   position:absolute;
 }
 .right2{
@@ -44,7 +53,7 @@ area:active, area:focus, audio{
   min-width: 20px;
   max-width: 20%;
   border:solid 1px;
-  z-index: 2;
+  z-index: 3;
   position:absolute;
   
 }
@@ -63,15 +72,18 @@ area:active, area:focus, audio{
 @media screen and (max-width: 1800px)  {
   .right ,.right2{ top: 0; right: 0; background-color: white; opacity: 0.7; position: fixed;
      }
+     
   
 }
 @media screen and (max-width: 800px){
   .center{margin-left: 0;margin-right: 0;}
-  iframe{height: 300px;}
+  iframe.youtube{height: 300px;}
+  
 }
 
 @media screen and (orientation:portrait) {
-  .code,#sound{display: none;}
+  .code{display: none;}
+  .partition1{display: none;}
   body{background-color: white;}
 }
 .portrait{
