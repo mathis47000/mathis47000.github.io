@@ -4,8 +4,8 @@
 	<title>WORLDBUILDING</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="sous pages/style.css">
-	<link rel="icon" type="image/png" href="sous pages/image/Carte Worldbuilding.jpg" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="image/Carte Worldbuilding.jpg" />
 </head>
 <body style="margin": 0;>
 
@@ -14,52 +14,34 @@ function myFunction() {
   var txt;
   var mot = prompt("Mot de passe:", "");
   if (mot == "oui") {
-    document.location.href="sous pages/secret.html";
+    document.location.href="secret.html";
   }
   
 }
-
-var win; 
-      function openW() { 
-        win = window.open("sous pages/image/fond.mp3", "_blank", "resizable=no,menubar=no,status=no,scrollbars=no,menubar= no"); 
-      }
-      function closeW() { 
-        win.close(); 
-      }
- 
-
-
 </script>
 </head>
 <body>
-	
-	
-    
+
 	<div class="code">
-		
-			<button onclick="openW()">play</button> 
-		
-			<button class="c" onclick="closeW()">stop</button>
-		
   	<nav style="background-color: #7f95a6;" height="41px" width="100%" class="partition1">
 	<a href="index.html"><h1 style="text-align: left; margin: 0;">WORLDBUILDING</h1></a>
+
 	
-	
-  	<audio controls src="sous pages/image/fond.mp3" loop="true" title="Cliquer sur play pour écouter la musique">
+  	<audio controls class="tracks" src="image/fond.mp3" loop="true" title="Cliquer sur play pour écouter la musique">
             Your browser does not support the
         	<code>audio</code> element.
     </audio>
     
 
 	</nav>
- 		<img title="Cliquer sur les élémemts de la carte pour accéder aux parties" src="sous pages/image/Carte Worldbuilding.jpg"  height="1080" width="1920" usemap="#map" >
+ 		<img title="Cliquer sur les élémemts de la carte pour accéder aux parties" src="image/Carte Worldbuilding.jpg"  height="1080" width="1920" usemap="#map" >
 	  	
 		<map name="map">
 		
-			<area shape="rect" coords="650,375,422,300" href="sous pages/Monde.html">
-			<area shape="rect" coords="900,800,650,700" href="sous pages/Le vivant.html">
-			<area shape="rect" coords="1400,450,1150,340" href="sous pages/Auteur.html">
-			<area shape="rect" coords="1650,900,1420,800" href="sous pages/à propos.html">
+			<area shape="rect" coords="650,375,422,300" href="Monde.html">
+			<area shape="rect" coords="900,800,650,700" href="Le vivant.html">
+			<area shape="rect" coords="1400,450,1150,340" href="Auteur.html">
+			<area shape="rect" coords="1650,900,1420,800" href="à propos.html">
 			<area shape="rect" coords="1400,872.5,1422.5,900" onclick="setTimeout(myFunction,2000) ">
 		</map>
  	
