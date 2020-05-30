@@ -6,50 +6,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="sous pages/style.css">
 	<link rel="icon" type="image/png" href="sous pages/image/Carte Worldbuilding.jpg" />
+	<script type="text/javascript" src="sous pages/user.js"></script>
 </head>
-<body style="margin": 0;>
-
-	<script>
-function myFunction() {
-  var txt;
-  var mot = prompt("Mot de passe:", "");
-  if (mot == "oui") {
-    document.location.href="sous pages/secret.html";
-  }
-  
-}
-
-var win; 
-      function openW() { 
-        win = window.open("sous pages/image/fond.mp3", "_blank", "resizable=no,menubar=no,status=no,scrollbars=no,menubar= no"); 
-      }
-      function closeW() { 
-        win.close(); 
-      }
- 
 
 
-</script>
-</head>
 <body>
 	
 	
     
 	<div class="code">
 		
-			<button onclick="openW()">play</button> 
-		
-			<button class="c" onclick="closeW()">stop</button>
+			
 		
   	<nav style="background-color: #7f95a6;" height="41px" width="100%" class="partition1">
 	<a href="index.html"><h1 style="text-align: left; margin: 0;">WORLDBUILDING</h1></a>
-	
-	
-  	<audio controls src="sous pages/image/fond.mp3" loop="true" title="Cliquer sur play pour écouter la musique">
-            Your browser does not support the
-        	<code>audio</code> element.
-    </audio>
-    
+    		
+    		<button title="Cliquer pour mettre la musique de fond" onclick="openW2()">musique de fond</button> 
+		
+			
 
 	</nav>
  		<img title="Cliquer sur les élémemts de la carte pour accéder aux parties" src="sous pages/image/Carte Worldbuilding.jpg"  height="1080" width="1920" usemap="#map" >
