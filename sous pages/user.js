@@ -6,6 +6,14 @@ function myFunction() {
   }
   
 }
+function myFunction2() {
+  var txt;
+  var mot = prompt("Mot de passe:", "");
+  if (mot == "oui") {
+    document.location.href="secret.html";
+  }
+  
+}
 
 var win; 
       function openW() { 
