@@ -6,7 +6,7 @@ function myFunction() {
   }
   
 }
-function myFunction2() {
+function myFunctions() {
   var txt;
   var mot = prompt("Mot de passe:", "");
   if (mot == "oui") {
