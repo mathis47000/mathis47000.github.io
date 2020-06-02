@@ -18,12 +18,12 @@ function myFunctions() {
 var win; 
       function openW() { 
         if (win==null) {
-         win = window.open("image/fond.mp3", "", "top=800,left=0,height=10,width=300"); 
+         win = window.open("sound.html", "", "top=800,left=0,height=10,width=300"); 
       }
     }
        function openW2() { 
         if (win==null) {
-         win = window.open("sous pages/image/fond.mp3", "", "top=800,left=0,height=10,width=300"); 
+         win = window.open("sous pages/sound.html", "", "top=800,left=0,height=10,width=300"); 
       }
     }
 
