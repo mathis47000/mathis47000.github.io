@@ -120,27 +120,26 @@ a.w, .ww{
   color: black;
   text-decoration: none;
 }
+a.ww{
+  padding: 3px;
+  border-radius: 7px;
+}
 a.w:hover{
   text-decoration: none;
 }
-a.ww:hover{
-  
-  color:#244194;
-}
+
 
 a.aa{
   text-decoration: none;
   color:#244194;
+  padding: 3px;
+  border-radius: 7px;
 }
 
-a.aa:hover{
-  color: black;
+a.aa:hover, a.ww:hover{
+  color: white;
+  background-color: #244194;
 }
-
-a.aa:active{
-  color: red;
-}
-
 
 
 li.deroulant,li.deroulant2,li.deroulant3 {
