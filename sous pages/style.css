@@ -56,7 +56,7 @@ area:active, area:focus, audio{
   opacity:0.9;
   margin-right: 20%;
   margin-left: 20%;
-  
+  border-radius: 10px;
 }
 
 button {
@@ -66,6 +66,8 @@ button {
     right:0;
     z-index: 2;
     margin-right: 100px;
+    background-color: #7f95a6;
+    border-radius: 8px;
 }
 
 /*responsive right*/
@@ -106,10 +108,12 @@ button {
 /*utiliser le <span> pour les textes et les </br> */
 }
 
+
 /*petit menu pour les résumés*/
 h1 
 {
     text-align: center;
+
 }
 li {
     list-style-type: none;
@@ -161,7 +165,7 @@ li.deroulant,li.deroulant2,li.deroulant3, li.deroulant4 {
   width: 10px;
   height: 0px;
   background: #7f95a6;
-  transition: width 0.4s, height 1.4s;
+  transition: width 0.4s, height 1s;
   border-radius: 10px;
 }
 
@@ -169,26 +173,31 @@ li.deroulant,li.deroulant2,li.deroulant3, li.deroulant4 {
 
 .w:hover + .deroulant{
   width: 220px;
-  height: 60px;
+  height: 65px;
   
 }
 .w:hover + .deroulant2{
   width: 310px;
-  height: 60px;
+  height: 65px;
   
 }
 .w:hover + .deroulant3{
   width: 160px;
-  height: 100px;
+  height: 110px;
   
 }
 .w:hover + .deroulant4{
   width: 160px;
-  height: 60px;
+  height: 65px;
   
 }
-
-
-
+@font-face{
+  font-family: "Faune";
+  src: url('image/Faune-TextRegular.otf');
+}
+body{
+  font-family: "Faune";
+}
+nav{border-radius: 10px; padding: 2px;}
 
 
