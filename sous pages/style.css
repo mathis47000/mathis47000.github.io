@@ -59,7 +59,7 @@ area:active, area:focus, audio{
   border-radius: 10px;
 }
 
-button {
+button.b {
     
     position: fixed;
     top: 0;
